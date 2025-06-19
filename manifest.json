@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "AIUB CAPTCHA SOLVER",
+  "version": "1.0",
+  "description": "just solve the given expression",
+  "permissions": ["scripting"],
+
+  "content_scripts": [
+    {
+      "matches": ["https://portal.aiub.edu/"],
+      "js": ["content.js"]
+    }
+  ]
+}
